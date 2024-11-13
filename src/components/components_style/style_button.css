@@ -1,0 +1,30 @@
+.custom-button {
+    background-color: #0ede15; 
+    color: white; 
+    padding: 10px 40px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    display: flex; 
+    align-items: center;
+}
+.custom2-button {
+    background-color: #04e00cb6; 
+    color: white; 
+    padding: 5px 10px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    display: flex; 
+    align-items: center;
+}
+.custom-button3 {
+    background-color: #ded00e; 
+    color: white; 
+    padding: 10px 40px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    display: flex; 
+    align-items: center;
+}
