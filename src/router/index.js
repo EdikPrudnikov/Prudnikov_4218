@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import About from '@/components/About.vue'; // Импорт компонента About
-import Home from '@/views/Home.vue'; // Импорт Вашего главного компонента
+import Home from '@/views/Home.vue'; // Импорт главного компонента
 
 Vue.use(Router);
 

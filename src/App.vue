@@ -2,13 +2,13 @@
   <div id="app">
     <Sidebar />
     <div class="content">
-      <router-view /> <!-- Это будет отображать Ваши маршруты -->
+      <router-view /> <!-- Это будет отображать маршруты -->
     </div>
   </div>
 </template>
 
 <script>
-import Sidebar from './components/Sidebar.vue'; // Импортируйте Sidebar
+import Sidebar from './components/Sidebar.vue'; // Импорт Sidebar
 
 export default {
   name: 'App',
@@ -20,11 +20,11 @@ export default {
 
 <style scoped>
 #app {
-  display: flex; /* Используем flexbox для боковой панели и контента */
+  display: flex; /* flexbox для боковой панели и контента */
 }
 .content {
   margin-left: 20px; /* Отступ, чтобы не перекрывать боковую панель */
   padding: 1em; /* Отступы для контента */
-  flex: 1; /* Заполняем оставшееся пространство */
+  flex: 1; /* Заполняется оставшееся пространство */
 }
 </style>
