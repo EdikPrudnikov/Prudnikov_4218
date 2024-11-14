@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import About from '@/components/About.vue'; // Импорт компонента About
+import Button1 from '@/components/Button1.vue'; // Импорт компонента
 import Home from '@/views/Home.vue'; // Импорт главного компонента
 
 Vue.use(Router);
@@ -13,9 +13,9 @@ export default new Router({
       component: Home,
     },
     {
-      path: '/about',
-      name: 'About',
-      component: About, // Указание компонента для маршрута
+      path: '/Button1',
+      name: 'Button1',
+      component: Button1, // Указание компонента для маршрута
     },
   ],
 });

@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import Sidebar from './components/Sidebar.vue'; // Импорт Sidebar
+import Sidebar from './components/Main.vue'; // Импорт Sidebar
 
 export default {
   name: 'App',
@@ -23,7 +23,7 @@ export default {
   display: flex; /* flexbox для боковой панели и контента */
 }
 .content {
-  margin-left: 20px; /* Отступ, чтобы не перекрывать боковую панель */
+  margin-left: 10px; /* Отступ, чтобы не перекрывать боковую панель */
   padding: 1em; /* Отступы для контента */
   flex: 1; /* Заполняется оставшееся пространство */
 }
