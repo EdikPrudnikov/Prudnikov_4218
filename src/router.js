@@ -37,23 +37,23 @@ const routes = [
 
   { path: '/ButtonGame2_3', component: ButtonGame2_3 }, // маршрут для страницы "игры"
   { path: '/ButtonPPT2_3', component: ButtonPPT2_3 }, // маршрут для страницы "презентации"
-  { path: '/ButtonDOCX2_3', component: ButtonDOCX2_3 }, // маршрут для страницы "с текстом"
+  { path: '/ButtonDOCX2_3', component: ButtonDOCX2_3 }, // маршрут для страницы "с Сценарием"
   
   { path: '/ButtonGame3_4', component: ButtonGame3_4 }, // маршрут для страницы "игры"
   { path: '/ButtonPPT3_4', component: ButtonPPT3_4 }, // маршрут для страницы "презентации"
-  { path: '/ButtonDOCX3_4', component: ButtonDOCX3_4 }, // маршрут для страницы "с текстом"
+  { path: '/ButtonDOCX3_4', component: ButtonDOCX3_4 }, // маршрут для страницы "с Сценарием"
 
   { path: '/ButtonGame4_5', component: ButtonGame4_5 }, // маршрут для страницы "игры"
   { path: '/ButtonPPT4_5', component: ButtonPPT4_5 }, // маршрут для страницы "презентации"
-  { path: '/ButtonDOCX4_5', component: ButtonDOCX4_5 }, // маршрут для страницы "с текстом"
+  { path: '/ButtonDOCX4_5', component: ButtonDOCX4_5 }, // маршрут для страницы "с Сценарием"
 
   { path: '/ButtonGame5_6', component: ButtonGame5_6 }, // маршрут для страницы "игры"
   { path: '/ButtonPPT5_6', component: ButtonPPT5_6 }, // маршрут для страницы "презентации"
-  { path: '/ButtonDOCX5_6', component: ButtonDOCX5_6 }, // маршрут для страницы "с текстом"
+  { path: '/ButtonDOCX5_6', component: ButtonDOCX5_6 }, // маршрут для страницы "с Сценарием"
 
   { path: '/ButtonGame6_7', component: ButtonGame6_7 }, // маршрут для страницы "игры"
   { path: '/ButtonPPT6_7', component: ButtonPPT6_7 }, // маршрут для страницы "презентации"
-  { path: '/ButtonDOCX6_7', component: ButtonDOCX6_7 }, // маршрут для страницы "с текстом"
+  { path: '/ButtonDOCX6_7', component: ButtonDOCX6_7 }, // маршрут для страницы "с Сценарием"
 ];
 
 const router = createRouter({

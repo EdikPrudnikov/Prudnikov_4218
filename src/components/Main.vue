@@ -38,6 +38,7 @@
   
   <style scoped>
   .sidebar {
+    height: 55vh; /* Фиксированная высота на весь экран */
     width: 170px; /* Ширина боковой панели */
     background-color: #50c878; /* Цвет фона */
     padding: 10px; /* Отступы внутри панели */

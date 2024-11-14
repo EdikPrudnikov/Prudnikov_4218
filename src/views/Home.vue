@@ -1,23 +1,49 @@
-<template>
-    <div class="container">
-    <h1>Главная страница</h1>
-    
-    <p>Перейти на страницу "О нас"</p>
-    <p>А вот и список</p>
-    <p>А вот и список</p>
-    <p>А вот и список</p>
-    <p>А вот и список</p>
-    <p>А вот и список</p>
-    <p>А вот и список</p>
-    <p>А вот и список</p>
 
+<template> 
+  <div class="main-page"> 
+    <div class="content"> 
+      <img src="@/assets/солнце.png" alt="Описание изображения" class="image" /> <!-- Добавление изображения -->
+      <h1>Детский сад номер 51  
+        Красносельского района</h1> 
+      <p>Эта страничка создана для обмена полезными ссылками, играми и презентациями, чтобы иметь возможность быстро и без проблем подготовиться и провести занятия.</p> 
+    </div> 
+  </div> 
+</template> 
 
-  </div>
-</template>
+<script> 
+export default { 
+  name: 'MainPage', 
+} 
+</script> 
 
-<script>
-  
-</script>
+<style scoped> 
+.main-page { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 70vh; 
+  flex-direction: column; /* Изменение направления на колонку для корректного размещения элементов */
+} 
+ 
+.content { 
+  text-align: center; 
+  margin: 20px; 
+} 
 
-<style scoped>
-</style>
+.image { 
+  width: 300px; /* Ширина картинки */ 
+  height: 200px; /* Высота картинки */ 
+  margin-bottom: 10px; /* Отступ снизу для расстояния от текста */
+} 
+ 
+h1 { 
+  font-size: 2em; 
+  color: #1e10e5; 
+} 
+ 
+p { 
+  font-size: 1.7em; 
+  color: #555; 
+} 
+</style> 
+

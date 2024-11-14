@@ -4,7 +4,7 @@
       <p>Здесь будет информация о 4-5.</p>
       <button @click="goToButtonGame4_5" class="custom4-button">Игры</button> 
     <button @click="goToButtonPPT4_5" class="custom4-button">Презентации</button> 
-    <button @click="goToButtonDOCX4_5" class="custom4-button">Текст</button> 
+    <button @click="goToButtonDOCX4_5" class="custom4-button">Сценарий</button> 
     </div>
 </template>
   
@@ -19,7 +19,7 @@ export default {
       this.$router.push('/ButtonPPT4_5'); // переход на страницу "презентации" 
     }, 
     goToButtonDOCX4_5() { 
-      this.$router.push('/ButtonDOCX4_5'); // переход на страницу "презентации" 
+      this.$router.push('/ButtonDOCX4_5'); // переход на страницу "Сценарий" 
     },
   } 
 };

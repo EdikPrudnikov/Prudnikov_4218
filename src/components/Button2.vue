@@ -4,7 +4,7 @@
     <p>Здесь будет информация о играх.</p> 
     <button @click="goToButtonGame3_4" class="custom4-button">Игры</button> 
     <button @click="goToButtonPPT3_4" class="custom4-button">Презентации</button> 
-    <button @click="goToButtonDOCX3_4" class="custom4-button">Текст</button> 
+    <button @click="goToButtonDOCX3_4" class="custom4-button">Сценарий</button> 
   </div> 
 </template> 
   
