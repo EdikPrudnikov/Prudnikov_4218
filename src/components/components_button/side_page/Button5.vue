@@ -19,7 +19,7 @@ export default {
       this.$router.push('/ButtonPPT6_7'); // переход на страницу "презентации" 
     }, 
     goToButtonDOCX6_7() { 
-      this.$router.push('/ButtonDOCX6_7'); // переход на страницу "презентации" 
+      this.$router.push('/ButtonDOCX6_7'); // переход на страницу "Сценарий" 
     },
   } 
 };

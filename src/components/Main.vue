@@ -1,50 +1,86 @@
-<template>
-    <div class="sidebar">
-      <button @click="goToHome"class="custom-button">Главная</button>
-      <p><button @click="goToButton1"class="custom2-button">2-3 года</button></p>
-      <p><button @click="goToButton2"class="custom2-button">3-4 года</button></p>
-      <p><button @click="goToButton3"class="custom2-button">4-5 лет</button></p>
-      <p><button @click="goToButton4"class="custom2-button">5-6 лет</button></p>
-      <p><button @click="goToButton5"class="custom2-button">6-7 лет</button></p>
-    </div>
-  </template>
-  
-  <script>
-  import './components_style/style_button.css';
-  export default {
-    methods: {
-      goToHome() {
-        this.$router.push('/'); // переход на главную страницу
-      },
-      goToButton1() {
-        this.$router.push('/Button1'); // переход на страницу "2-3"
-      },
-      goToButton2() {
-        this.$router.push('/Button2'); // переход на страницу "3-4"
-      },
-      goToButton3() {
-        this.$router.push('/Button3'); // переход на страницу "4-5"
-      },
-      goToButton4() {
-        this.$router.push('/Button4'); // переход на страницу "5-6"
-      },
-      goToButton5() {
-        this.$router.push('/Button5'); // переход на страницу "6-7"
-      },
 
-    },
-  };
-  </script>
-  
-  <style scoped>
-  .sidebar {
-    height: 55vh; /* Фиксированная высота на весь экран */
-    width: 170px; /* Ширина боковой панели */
-    background-color: #50c878; /* Цвет фона */
-    padding: 10px; /* Отступы внутри панели */
-    margin-top: 10px; /* Задаем отступ сверху */
-    border: none; 
-    border-radius: 5px; 
-  }
-  </style>
-  
+<template>  
+  <div>  
+    <button class="reset-button"></button>
+    <div class="navbar">  
+      <div class="button-container">  
+        <button @click="goToHome" class="custom2-button">Главная</button>  
+        <button @click="goToButton1" class="custom2-button">2-3 года</button>  
+        <button @click="goToButton2" class="custom2-button">3-4 года</button>  
+        <button @click="goToButton3" class="custom2-button">4-5 лет</button>  
+        <button @click="goToButton4" class="custom2-button">5-6 лет</button>  
+        <button @click="goToButton5" class="custom2-button">6-7 лет</button> 
+        <button @click="goBack" class="back-button">Назад</button> <!-- Кнопка "Назад" -->    
+      </div>  
+    </div>  
+    <div class="sidebar">  
+      <button @click="goToLapbooks" class="custom5-button">Лэпбуки</button>  
+      <button @click="goToPsychologicalTraining" class="custom5-button">Психологические тренинги</button>  
+      <button @click="goToWorkingWithParents" class="custom5-button">Опыт работы с родителями</button>  
+      <button @click="goToElectronicLibrary" class="custom5-button">Электронная библиотека</button>     
+      <button @click="goToElectronicResources" class="custom5-button">Электронные ресурсы</button>  
+      <button @click="goToMultStudio" class="custom5-button" @mouseover="showTooltip = true" @mouseleave="showTooltip = false">МультСтудия</button>  
+      <div v-if="showTooltip" class="tooltip">Здесь Вы сможете посмотреть мультфильмы в соответствии с вашими интересами</div> <!-- Всплывающее окно -->  
+    </div>  
+  </div>  
+</template>  
+
+<script>     
+import './components_style/style_button.css';     
+export default {     
+  data() {   
+    return {   
+      showTooltip: false, // Переменная для управления отображением всплывающего окна   
+    };   
+  },   
+  methods: {     
+    goBack() { // Метод для возврата на предыдущую страницу  
+      this.$router.go(-1);   
+    },  
+    resetTabs() { // Метод для сброса вкладок  
+      this.goToHome(); // Переход на главную страницу  
+      // Здесь можно добавить логику для сброса состояния вкладок, если такая есть  
+    },  
+    goToHome() {     
+      this.$router.push('/');     
+    },     
+    goToButton1() {     
+      this.$router.push('/Button1');     
+    },     
+    goToButton2() {     
+      this.$router.push('/Button2');     
+    },     
+    goToButton3() {    this.$router.push('/Button3');     
+    },     
+    goToButton4() {     
+      this.$router.push('/Button4');     
+    },     
+    goToButton5() {     
+      this.$router.push('/Button5');     
+    },     
+    goToLapbooks() {     
+      this.$router.push('/Lapbooks');     
+    },     
+    goToPsychologicalTraining() {     
+      this.$router.push('/PsychologicalTraining');     
+    },     
+    goToWorkingWithParents() {     
+      this.$router.push('/WorkingWithParents');     
+    },     
+    goToElectronicLibrary() {     
+      this.$router.push('/ElectronicLibrary');     
+    },     
+    goToMultStudio() {      
+      this.$router.push('/MultStudio');     
+    },  
+    goToElectronicResources() {   
+      this.$router.push('/ElectronicResources');   
+    },  
+  },     
+};     
+</script>     
+
+<style scoped>     
+
+</style>
+

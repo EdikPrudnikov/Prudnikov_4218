@@ -27,6 +27,13 @@ import ButtonGame6_7 from './components/components_button/components_button6_7/B
 import ButtonPPT6_7 from './components/components_button/components_button6_7/ButtonPPT6_7.vue';
 import ButtonDOCX6_7 from './components/components_button/components_button6_7/ButtonDOCX6_7.vue';
 
+import Lapbooks from './components/components_button/sidebar/Lapbooks.vue';
+import PsychologicalTraining from './components/components_button/sidebar/PsychologicalTraining.vue';
+import WorkingWithParents from './components/components_button/sidebar/WorkingWithParents.vue';
+import ElectronicLibrary from './components/components_button/sidebar/ElectronicLibrary.vue';
+import ElectronicResources from './components/components_button/sidebar/ElectronicResources.vue';
+import MultStudio from './components/components_button/sidebar/MultStudio.vue';
+
 const routes = [
   { path: '/', component: Home }, // маршрут для главной страницы
   { path: '/Button1', component: Button1 }, // маршрут для страницы "2-3"
@@ -54,6 +61,14 @@ const routes = [
   { path: '/ButtonGame6_7', component: ButtonGame6_7 }, // маршрут для страницы "игры"
   { path: '/ButtonPPT6_7', component: ButtonPPT6_7 }, // маршрут для страницы "презентации"
   { path: '/ButtonDOCX6_7', component: ButtonDOCX6_7 }, // маршрут для страницы "с Сценарием"
+
+  { path: '/Lapbooks', component: Lapbooks },
+  { path: '/PsychologicalTraining', component: PsychologicalTraining },
+  { path: '/WorkingWithParents', component: WorkingWithParents },
+  { path: '/ElectronicLibrary', component: ElectronicLibrary },
+  { path: '/ElectronicResources', component: ElectronicResources },
+  { path: '/MultStudio', component: MultStudio },
+  
 ];
 
 const router = createRouter({

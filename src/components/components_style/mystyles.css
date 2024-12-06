@@ -7,4 +7,5 @@ body {
   flex-direction: column;
   align-items: center; /* Центрирование по оси Y */
   height: 10vh; /* Высота 100% от видимой области */
+  margin-top: 70px; /*значение по мере необходимости для нужного отступа */
 }

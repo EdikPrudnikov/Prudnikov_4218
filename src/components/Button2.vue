@@ -1,7 +1,7 @@
 <template> 
   <div class="container"> 
     <h1>Страница "3-4 года"</h1> 
-    <p>Здесь будет информация о играх.</p> 
+    <p>Здесь будет информация о 3-4 годах.</p> 
     <button @click="goToButtonGame3_4" class="custom4-button">Игры</button> 
     <button @click="goToButtonPPT3_4" class="custom4-button">Презентации</button> 
     <button @click="goToButtonDOCX3_4" class="custom4-button">Сценарий</button> 
