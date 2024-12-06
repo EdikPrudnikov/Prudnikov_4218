@@ -24,7 +24,7 @@
  
 <script> 
 export default { 
-  name: 'goToButtonDOCX3_4', 
+  name: 'GoToButtonDOCX3_4', 
   data() { 
     return { 
       searchQuery: '', 
@@ -95,7 +95,5 @@ export default {
   }, 
 }; 
 </script> 
- 
-<style scoped> 
-
+<style scoped>  
 </style>

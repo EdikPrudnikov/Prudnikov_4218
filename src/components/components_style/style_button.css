@@ -135,41 +135,41 @@
     margin-left: 10px;   
   }   
 /* стиль предосмотров и скачиваний */
-  .container { 
-    padding: 2px; 
-  } 
-  .search-container { 
-    margin-top: 8px; 
-  } 
-  input { 
-    margin-bottom: 10px; 
-    padding: 8px; 
-    border-radius: 4px; 
-    border: 1px solid #ccc; 
-  } 
-  .item { 
-    margin-bottom: 10px; 
-  } 
-  
-  .large-title { 
-    font-size: 20px; /* размер */ 
-    display: inline-block; /* ширина меняется в зависимости от содержимого */ 
-    width: auto; /* автоматической ширина */ 
-    font-style: italic; /* курсив */
-  }
-    
-  .no-bullet { 
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    width: 300px; /* установить фиксированную ширину списка */
-    text-align: center; /* выравнивание текста по центру */
-    margin-left: auto; /* автоматически выравнивание слева */
-    margin-right: auto; /* автоматически выравнивание справа */
-  } 
-  .button-group { 
-    margin-top: 5px;
-  } 
-  .preview-button { 
-    margin-top: 5px; 
-  }   
+.container {   
+  padding: 2px;   
+  text-align: center; /* центрирование содержимого контейнера */  
+}   
+
+.search-container {   
+  margin-top: 8px;   
+}   
+
+input {  
+  margin-bottom: 10px;  
+  padding: 8px;  
+  border-radius: 4px;  
+  border: 1px solid #ccc;  
+  width: 100%; /* ширина на всю ширину контейнера */  
+  max-width: 400px; /* максимальная ширина для ввода */  
+  box-sizing: border-box; /* учитываем отступы и границы в ширине */  
+}  
+
+.large-title {  
+  font-style: italic; /* курсив */ 
+  flex-grow: 1; /* текст займет оставшееся пространство */  
+  font-size: 20px;
+}  
+
+.no-bullet {  
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0; 
+}  
+
+.button-group {  
+  margin-top: 10px; 
+}  
+
+.preview-button {  
+  margin-top: 10px;  
+}  

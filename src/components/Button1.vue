@@ -28,4 +28,3 @@ export default {
 <style> 
 @import url('./components_style/mystyles.css'); 
 </style>
-
