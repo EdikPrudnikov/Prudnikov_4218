@@ -39,10 +39,15 @@ h1 {
   font-size: 2em; 
   color: #1e10e5; 
 } 
- 
+.dark-theme h1 { 
+color: #EFE11A; 
+} 
 p { 
   font-size: 1.7em; 
   color: #555; 
+} 
+.dark-theme p { 
+color: #ffffff; 
 } 
 </style> 
 

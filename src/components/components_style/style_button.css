@@ -1,6 +1,22 @@
+.wide-button {
+  color: white; 
+  position: absolute; /* Позиционирование кнопки */
+  top: 45px; /* Отступ сверху */
+  left: 27px; /* Отступ слева */
+  z-index: 1001; /* выше других элементов */
+  background-color: #53d0ec; /* Цвет фона */
+  border: none; /* Без границ */
+  padding: 8px 12px; /* Отступы */
+  cursor: pointer; /* Указатель при наведении */
+  border-radius: 5px; /* Скругленные углы */
+}
+.dark-theme .wide-button {
+  background-color: #53d0ec; /* Цвет кнопок в тёмной теме */
+  color: black; /* Цвет текста в тёмной теме */
+}
 .custom4-button { 
     margin: 10px 0; /* Отступы снизу и сверху, без отступа по бокам */ 
-    background-color: #0e61de; 
+    background-color: #c4df16; 
     color: white; 
     padding: 10px 40px; 
     border: none; 
@@ -9,6 +25,10 @@
     display: flex; 
     align-items: center;
     font-size: 20px;
+}
+.dark-theme .custom4-button {
+  background-color: #c4df16; /* Цвет кнопок в тёмной теме */
+  color: black; /* Цвет текста в тёмной теме */
 }
 .custom-button {
     background-color: #0ede15; 
@@ -22,7 +42,7 @@
     font-size: 20px;
 }
 .custom5-button {  
-    background-color: #04e00cb6;    
+    background-color: #c4df16;    
     color: white;    
     padding: 10px 100px; /* Увеличение боковых отступов */    
     border: none;    
@@ -36,8 +56,12 @@
     width: 150px; /* Установление фиксированной ширины кнопокок */    
     text-align: center; /* Центрирование текста в кнопках */  
 }
+.dark-theme .custom5-button {
+  background-color: #DDF156; /* Цвет кнопок в тёмной теме */
+  color: black; /* Цвет текста в тёмной теме */
+}
 .custom2-button {  
-    background-color: #04e00cb6;    
+    background-color: #53d0ec;    
     color: white;    
     padding: 10px 20px; /* Увеличение боковых отступов */    
     border: none;    
@@ -51,9 +75,12 @@
     width: 150px; /* Установление фиксированной ширины кнопок */    
     text-align: center; /* Центрирование текста в кнопках */  
 }
-
+.dark-theme .custom2-button {
+  background-color: #53d0ec; /* Цвет кнопок в тёмной теме */
+  color: black; /* Цвет текста в тёмной теме */
+}
 .custom3-button { 
-    background-color: #0e61de;  
+    background-color: #c4df16;  
     color: white;  
     padding: 10px 40px;  
     border: none;  
@@ -66,9 +93,12 @@
     background-color: 0e61de;  
     margin-left: 10px; /* Отступ слева для кнопки */
 }    
-
+.dark-theme .custom3-button { 
+  background-color: #DDF156; 
+  color: black;
+  } 
 .custom3-button:hover { 
-    background-color: #dc1714; /* Темнее при наведении */ 
+    background-color: #94b700; /* Темнее при наведении */ 
 } 
 
 .item-content {   
@@ -87,19 +117,22 @@
 .tooltip {
     position: absolute; /* Позиционирование всплывающего окна */
     background-color: #fff; /* Цвет фона */
-    /*border: 1px solid #ccc;  Граница */
+    border: 1px solid #aeaeae;  Граница
     padding: 0px; /* Отступы */
     border-radius: 5px; /* Закругление углов */
     z-index: 1000; /* Уровень наложения */
     margin-top: 0px; /* Отступ сверху */
   }
-
+  .dark-theme .tooltip {
+    background-color: #155b91; /* Цвет фона для темной темы */
+    color: #000000; /* Цвет текста для темной темы */
+  }
   .sidebar {    
     height: 62vh;   
     width: 215px;   
-    background-color: #50c878;   
+    background-color: #078daa;   
     padding: 10px;    
-    margin-top: 60px;    
+    margin-top: 115px;    
     border: none;     
     border-radius: 5px;     
   }   
@@ -110,25 +143,28 @@
     top: 10px; /* Отступ сверху */
     left: 20px; /* Отступ слева */
     z-index: 1001; /* выше других элементов */
-    background-color: #04e00cb6; /* Цвет фона */
+    background-color: #53d0ec; /* Цвет фона */
     border: none; /* Без границ */
     padding: 8px 12px; /* Отступы */
     cursor: pointer; /* Указатель при наведении */
     border-radius: 5px; /* Скругленные углы */
   }
-
+  .dark-theme .back-button {
+    color: black; /* Цвет текста в тёмной теме */
+  }
   .navbar {     
     display: flex;     
     justify-content: center;      
-    background-color: #50c878;      
+    background-color: #078daa;      
     padding: 10px;      
     width: 100%;      
     position: fixed;    
     top: 0;      
-    z-index: 1000;      
+    z-index: 1000; 
+    border-radius: 5px;     
   }   
   .button-container {     
-    display: flex;      
+    display: flex;  
   }   
   
   .reset-button {     
@@ -141,17 +177,19 @@
 }   
 
 .search-container {   
-  margin-top: 8px;   
+  margin-top: 8px;  
 }   
 
 input {  
+  background-color: #53d0ec;
   margin-bottom: 10px;  
   padding: 8px;  
   border-radius: 4px;  
-  border: 1px solid #ccc;  
+  border: 1px solid #53d0ec;  
   width: 100%; /* ширина на всю ширину контейнера */  
   max-width: 400px; /* максимальная ширина для ввода */  
   box-sizing: border-box; /* учитываем отступы и границы в ширине */  
+  color: black;   
 }  
 
 .large-title {  
@@ -159,7 +197,9 @@ input {
   flex-grow: 1; /* текст займет оставшееся пространство */  
   font-size: 20px;
 }  
-
+.dark-theme .large-title { 
+  color: #ffffff;
+  } 
 .no-bullet {  
   list-style-type: none; 
   padding: 0; 

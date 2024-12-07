@@ -26,5 +26,11 @@ export default {
 </script> 
  
 <style> 
+.dark-theme h1 { 
+color: #ffffff; 
+} 
+.dark-theme p { 
+color: #ffffff; 
+} 
 @import url('./components_style/mystyles.css'); 
 </style>
