@@ -86,7 +86,6 @@
     border: none;  
     border-radius: 5px;  
     cursor: pointer;  
-    display: flex;  
     align-items: center; 
     font-size: 20px; 
     align-self: center; /* Цунтрирование кнопки по вертикали */  
@@ -117,7 +116,7 @@
 .tooltip {
     position: absolute; /* Позиционирование всплывающего окна */
     background-color: #fff; /* Цвет фона */
-    border: 1px solid #aeaeae;  Граница
+    border: 1px solid #aeaeae; 
     padding: 0px; /* Отступы */
     border-radius: 5px; /* Закругление углов */
     z-index: 1000; /* Уровень наложения */
@@ -125,7 +124,7 @@
   }
   .dark-theme .tooltip {
     background-color: #155b91; /* Цвет фона для темной темы */
-    color: #000000; /* Цвет текста для темной темы */
+    color: #ffffff; /* Цвет текста для темной темы */
   }
   .sidebar {    
     height: 62vh;   

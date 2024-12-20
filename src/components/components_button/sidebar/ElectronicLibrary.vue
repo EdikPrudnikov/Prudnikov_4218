@@ -1,7 +1,7 @@
 <template> 
-    <div class="container"> 
-      <h1>Страница "ElectronicLibrary"</h1> 
-      <p>Здесь будет информация о ElectronicLibrary.</p> 
+    <div class="article"> 
+      <h1 class="article-title">Страница "ElectronicLibrary"</h1> 
+      <p class="article-text">сплошной текст с ссылками на книги</p> 
     </div> 
   </template> 
     

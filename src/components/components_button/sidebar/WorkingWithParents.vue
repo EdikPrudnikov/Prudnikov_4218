@@ -1,7 +1,7 @@
 <template> 
-    <div class="container"> 
-      <h1>Страница "WorkingWithParents"</h1> 
-      <p>Здесь будет информация о WorkingWithParents.</p> 
+    <div class="article"> 
+      <h1 class="article-title">Страница "WorkingWithParents"</h1> 
+      <p class="article-text">Здесь будет информация о WorkingWithParents.</p> 
     </div> 
   </template> 
     
