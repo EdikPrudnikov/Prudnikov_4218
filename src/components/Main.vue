@@ -32,8 +32,8 @@ import './components_style/style_button.css';
 export default {
   data() {
     return {
-      showTooltip: false, // Переменная для управления отображением всплывающего окна
-      isDarkMode: false // Изначально светлая тема
+      showTooltip: false,
+      isDarkMode: false
     };
   },
   methods: {
@@ -85,16 +85,16 @@ export default {
     const theme = localStorage.getItem('theme'); 
     if (theme === 'dark') { 
       this.isDarkMode = true; 
-      document.body.classList.add('dark-theme'); // Добавлено для применения темной темы
+      document.body.classList.add('dark-theme');
     } 
   }, 
 
   watch: {
     isDarkMode(newValue) {
       if (newValue) {
-        document.body.classList.add('dark-theme'); // Добавлено для применения темной темы
+        document.body.classList.add('dark-theme');
       } else {
-        document.body.classList.remove('dark-theme'); // Удаление класса при светлой теме
+        document.body.classList.remove('dark-theme');
       }
     }
   }

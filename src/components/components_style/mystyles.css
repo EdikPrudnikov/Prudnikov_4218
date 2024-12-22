@@ -1,54 +1,63 @@
-body {
-    background-color: #f2f2f2 ;
-}
 
-body.dark-theme { 
-background-color: #0e3a5b; 
+body { 
+  background-color: #f2f2f2 ; 
 } 
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Центрирование по оси Y */
-  height: 10vh; /* Высота 100% от видимой области */
-  margin-top: 70px; /*значение по мере необходимости для нужного отступа */
+
+body.dark-theme {  
+  background-color: #0e3a5b;  
+}  
+
+.container { 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  height: 10vh; 
+  margin-top: 70px; 
+} 
+
+.article { 
+  max-width: 800px; 
+  margin: 30px auto; 
+  padding: 20px; 
+  background-color: #f9f9f9; 
+  border: 1px solid #000000; 
+  border-radius: 8px; 
+} 
+
+.dark-theme .article {  
+  background-color: #081f32;  
+  border: 1px solid #ffffff; 
+}  
+
+.article-title { 
+  text-align: left; 
+  font-size: 2em; 
+  margin-bottom: 20px; 
+  color: #333; 
+} 
+
+.dark-theme .article-title {  
+  background-color: #081f32;  
+}  
+
+.article-text { 
+  text-align: left; 
+  font-size: 1.5em; 
+  line-height: 1.6; 
+  color: #000000; 
+} 
+
+.dark-theme .article-text {  
+  color: #ffffff;  
+}  
+
+.article-text1 { 
+  text-align: left; 
+  font-size: 1.3em; 
+  line-height: 1.4; 
+  color: #000000; 
+} 
+
+.dark-theme .article-text1 {  
+  color: #ffffff;  
 }
-/* текчт для правосторонних штук */
-.article {
-  max-width: 800px; /* Максимальная ширина статьи */
-  margin: 30px auto; /* Центрируем статью и добавляем отступ сверху */
-  padding: 20px; /* Отступы внутри статьи */
-  background-color: #f9f9f9; /* Фоновый цвет */
-  border: 1px solid #000000; /* Граница */
-  border-radius: 8px; /* Закругление углов */
-}
-.dark-theme .article { 
-  background-color: #081f32; 
-  border: 1px solid #ffffff; /* Граница */
-  } 
-.article-title {
-  text-align: left; /* Выравнивание заголовка влево */
-  font-size: 2em; /* Размер шрифта заголовка */
-  margin-bottom: 20px; /* Отступ снизу */
-  color: #333; /* Цвет текста заголовка */
-}
-.dark-theme .article-title { 
-  background-color: #081f32; 
-  } 
-.article-text {
-  text-align: left; /* Выравнивание основного текста влево */
-  font-size: 1.5em; /* Размер шрифта основного текста */
-  line-height: 1.6; /* Междустрочный интервал */
-  color: #000000; /* Цвет текста основного */
-}
-.dark-theme .article-text { 
-  color: #ffffff; 
-  } 
-.article-text1 {
-  text-align: left; /* Выравнивание основного текста влево */
-  font-size: 1.3em; /* Размер шрифта основного текста */
-  line-height: 1.4; /* Междустрочный интервал */
-  color: #000000; /* Цвет текста основного */
-}
-.dark-theme .article-text1 { 
-  color: #ffffff; 
-  } 

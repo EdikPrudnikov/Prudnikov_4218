@@ -21,7 +21,7 @@ export default {
   justify-content: center; 
   align-items: center; 
   height: 80vh; 
-  flex-direction: column; /* Изменение направления на колонку для корректного размещения элементов */
+  flex-direction: column;
 } 
  
 .content { 
@@ -30,9 +30,9 @@ export default {
 } 
 
 .image { 
-  width: 200px; /* Ширина картинки */ 
-  height: 200px; /* Высота картинки */ 
-  margin-bottom: 10px; /* Отступ снизу для расстояния от текста */
+  width: 200px;
+  height: 200px; 
+  margin-bottom: 10px;
 } 
  
 h1 { 

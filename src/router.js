@@ -35,33 +35,28 @@ import ElectronicResources from './components/components_button/sidebar/Electron
 import MultStudio from './components/components_button/sidebar/MultStudio.vue';
 
 const routes = [
-  { path: '/', component: Home }, // маршрут для главной страницы
-  { path: '/Button1', component: Button1 }, // маршрут для страницы "2-3"
-  { path: '/Button2', component: Button2 }, // маршрут для страницы "3-4"
-  { path: '/Button3', component: Button3 }, // маршрут для страницы "4-5"
-  { path: '/Button4', component: Button4 }, // маршрут для страницы "5-6"
-  { path: '/Button5', component: Button5 }, // маршрут для страницы "6-7"
-
-  { path: '/ButtonGame2_3', component: ButtonGame2_3 }, // маршрут для страницы "игры"
-  { path: '/ButtonPPT2_3', component: ButtonPPT2_3 }, // маршрут для страницы "презентации"
-  { path: '/ButtonDOCX2_3', component: ButtonDOCX2_3 }, // маршрут для страницы "с Сценарием"
+  { path: '/', component: Home },
+  { path: '/Button1', component: Button1 },
+  { path: '/Button2', component: Button2 },
+  { path: '/Button3', component: Button3 },
+  { path: '/Button4', component: Button4 },
+  { path: '/Button5', component: Button5 },
+  { path: '/ButtonGame2_3', component: ButtonGame2_3 },
+  { path: '/ButtonPPT2_3', component: ButtonPPT2_3 },
+  { path: '/ButtonDOCX2_3', component: ButtonDOCX2_3 },
+  { path: '/ButtonGame3_4', component: ButtonGame3_4 },
+  { path: '/ButtonPPT3_4', component: ButtonPPT3_4 },
+  { path: '/ButtonDOCX3_4', component: ButtonDOCX3_4 },
+  { path: '/ButtonGame4_5', component: ButtonGame4_5 },
+  { path: '/ButtonPPT4_5', component: ButtonPPT4_5 },
+  { path: '/ButtonDOCX4_5', component: ButtonDOCX4_5 },
+  { path: '/ButtonGame5_6', component: ButtonGame5_6 },
+  { path: '/ButtonPPT5_6', component: ButtonPPT5_6 },
+  { path: '/ButtonDOCX5_6', component: ButtonDOCX5_6 },
+  { path: '/ButtonGame6_7', component: ButtonGame6_7 },
+  { path: '/ButtonPPT6_7', component: ButtonPPT6_7 },
+  { path: '/ButtonDOCX6_7', component: ButtonDOCX6_7 },
   
-  { path: '/ButtonGame3_4', component: ButtonGame3_4 }, // маршрут для страницы "игры"
-  { path: '/ButtonPPT3_4', component: ButtonPPT3_4 }, // маршрут для страницы "презентации"
-  { path: '/ButtonDOCX3_4', component: ButtonDOCX3_4 }, // маршрут для страницы "с Сценарием"
-
-  { path: '/ButtonGame4_5', component: ButtonGame4_5 }, // маршрут для страницы "игры"
-  { path: '/ButtonPPT4_5', component: ButtonPPT4_5 }, // маршрут для страницы "презентации"
-  { path: '/ButtonDOCX4_5', component: ButtonDOCX4_5 }, // маршрут для страницы "с Сценарием"
-
-  { path: '/ButtonGame5_6', component: ButtonGame5_6 }, // маршрут для страницы "игры"
-  { path: '/ButtonPPT5_6', component: ButtonPPT5_6 }, // маршрут для страницы "презентации"
-  { path: '/ButtonDOCX5_6', component: ButtonDOCX5_6 }, // маршрут для страницы "с Сценарием"
-
-  { path: '/ButtonGame6_7', component: ButtonGame6_7 }, // маршрут для страницы "игры"
-  { path: '/ButtonPPT6_7', component: ButtonPPT6_7 }, // маршрут для страницы "презентации"
-  { path: '/ButtonDOCX6_7', component: ButtonDOCX6_7 }, // маршрут для страницы "с Сценарием"
-
   { path: '/Lapbooks', component: Lapbooks },
   { path: '/PsychologicalTraining', component: PsychologicalTraining },
   { path: '/WorkingWithParents', component: WorkingWithParents },

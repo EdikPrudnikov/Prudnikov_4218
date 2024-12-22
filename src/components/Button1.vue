@@ -13,13 +13,13 @@ export default {
   name: 'Button1', 
   methods: { 
     goToButtonGame2_3() { 
-      this.$router.push('/ButtonGame2_3'); // переход на страницу "игры" 
+      this.$router.push('/ButtonGame2_3');
     }, 
     goToButtonPPT2_3() { 
-      this.$router.push('/ButtonPPT2_3'); // переход на страницу "презентации" 
+      this.$router.push('/ButtonPPT2_3'); 
     }, 
     goToButtonDOCX2_3() { 
-      this.$router.push('/ButtonDOCX2_3'); // переход на страницу "презентации" 
+      this.$router.push('/ButtonDOCX2_3');
     },
   } 
 }; 

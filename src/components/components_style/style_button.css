@@ -1,131 +1,143 @@
-.wide-button {
-  color: white; 
-  position: absolute; /* Позиционирование кнопки */
-  top: 45px; /* Отступ сверху */
-  left: 27px; /* Отступ слева */
-  z-index: 1001; /* выше других элементов */
-  background-color: #53d0ec; /* Цвет фона */
-  border: none; /* Без границ */
-  padding: 8px 12px; /* Отступы */
-  cursor: pointer; /* Указатель при наведении */
-  border-radius: 5px; /* Скругленные углы */
-}
-.dark-theme .wide-button {
-  background-color: #53d0ec; /* Цвет кнопок в тёмной теме */
-  color: black; /* Цвет текста в тёмной теме */
-}
-.custom4-button { 
-    margin: 10px 0; /* Отступы снизу и сверху, без отступа по бокам */ 
-    background-color: #c4df16; 
-    color: white; 
-    padding: 10px 40px; 
-    border: none; 
-    border-radius: 5px; 
-    cursor: pointer; 
-    display: flex; 
-    align-items: center;
-    font-size: 20px;
-}
-.dark-theme .custom4-button {
-  background-color: #c4df16; /* Цвет кнопок в тёмной теме */
-  color: black; /* Цвет текста в тёмной теме */
-}
-.custom-button {
-    background-color: #0ede15; 
-    color: white; 
-    padding: 10px 40px; 
-    border: none; 
-    border-radius: 5px; 
-    cursor: pointer; 
-    display: flex; 
-    align-items: center;
-    font-size: 20px;
-}
-.custom5-button {  
-    background-color: #c4df16;    
-    color: white;    
-    padding: 10px 100px; /* Увеличение боковых отступов */    
-    border: none;    
-    border-radius: 5px;    
-    cursor: pointer;    
-    display: flex;    
-    justify-content: center; /* Центрирование текста по горизонтали */    
-    align-items: center;    
-    font-size: 20px;    
-    margin: 10px 5px; /* Увеличение отступа между кнопками по горизонтали */   
-    width: 150px; /* Установление фиксированной ширины кнопокок */    
-    text-align: center; /* Центрирование текста в кнопках */  
-}
-.dark-theme .custom5-button {
-  background-color: #DDF156; /* Цвет кнопок в тёмной теме */
-  color: black; /* Цвет текста в тёмной теме */
-}
-.custom2-button {  
-    background-color: #53d0ec;    
-    color: white;    
-    padding: 10px 20px; /* Увеличение боковых отступов */    
-    border: none;    
-    border-radius: 5px;    
-    cursor: pointer;    
-    display: flex;    
-    justify-content: center; /* Центрирование текст по горизонтали */    
-    align-items: center;    
-    font-size: 20px;    
-    margin: 10px 5px; /* Увеличение отступа между кнопками по горизонтали */   
-    width: 150px; /* Установление фиксированной ширины кнопок */    
-    text-align: center; /* Центрирование текста в кнопках */  
-}
-.dark-theme .custom2-button {
-  background-color: #53d0ec; /* Цвет кнопок в тёмной теме */
-  color: black; /* Цвет текста в тёмной теме */
-}
-.custom3-button { 
+
+.wide-button { 
+  color: white;  
+  position: absolute; 
+  top: 45px; 
+  left: 27px; 
+  z-index: 1001; 
+  background-color: #53d0ec; 
+  border: none; 
+  padding: 8px 12px; 
+  cursor: pointer; 
+  border-radius: 5px; 
+} 
+
+.dark-theme .wide-button { 
+  background-color: #53d0ec; 
+  color: black; 
+} 
+
+.custom4-button {  
+    margin: 10px 0;  
     background-color: #c4df16;  
     color: white;  
     padding: 10px 40px;  
     border: none;  
     border-radius: 5px;  
     cursor: pointer;  
+    display: flex;  
     align-items: center; 
     font-size: 20px; 
-    align-self: center; /* Цунтрирование кнопки по вертикали */  
-    background-color: 0e61de;  
-    margin-left: 10px; /* Отступ слева для кнопки */
-}    
-.dark-theme .custom3-button { 
-  background-color: #DDF156; 
-  color: black;
-  } 
-.custom3-button:hover { 
-    background-color: #94b700; /* Темнее при наведении */ 
 } 
 
-.item-content {   
-    display: flex;   
-    align-items: center; /* Центрирование по вертикали */   
-    justify-content: flex-start; /* Текст и кнопка слева */   
-    gap: 10px; /* Пространство между текстом и кнопкой */   
-}   
-   
-.present-title {   
-    font-weight: bold;   
-    font-size: 18px;   
-    color: black;   
+.dark-theme .custom4-button { 
+  background-color: #c4df16; 
+  color: black; 
+} 
+
+.custom-button { 
+    background-color: #0ede15;  
+    color: white;  
+    padding: 10px 40px;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    display: flex;  
+    align-items: center; 
+    font-size: 20px; 
+} 
+
+.custom5-button {   
+    background-color: #c4df16;     
+    color: white;     
+    padding: 10px 100px;     
+    border: none;     
+    border-radius: 5px;     
+    cursor: pointer;     
+    display: flex;     
+    justify-content: center;      
+    align-items: center;     
+    font-size: 20px;     
+    margin: 10px 5px;  
+    width: 150px;     
+    text-align: center;   
+} 
+
+.dark-theme .custom5-button { 
+  background-color: #DDF156; 
+  color: black; 
+} 
+
+.custom2-button {   
+    background-color: #53d0ec;     
+    color: white;     
+    padding: 10px 20px;     
+    border: none;     
+    border-radius: 5px;     
+    cursor: pointer;     
+    display: flex;     
+    justify-content: center;     
+    align-items: center;     
+    font-size: 20px;     
+    margin: 10px 5px;    
+    width: 150px;     
+    text-align: center;   
+} 
+
+.dark-theme .custom2-button { 
+  background-color: #53d0ec; 
+  color: black; 
+} 
+
+.custom3-button {  
+    background-color: #c4df16;   
+    color: white;   
+    padding: 10px 40px;   
+    border: none;   
+    border-radius: 5px;   
+    cursor: pointer;   
+    align-items: center;  
+    font-size: 20px;  
+    align-self: center;   
+    margin-left: 10px; 
+}     
+
+.dark-theme .custom3-button {  
+  background-color: #DDF156;  
+  color: black; 
 }  
 
-.tooltip {
-    position: absolute; /* Позиционирование всплывающего окна */
-    background-color: #fff; /* Цвет фона */
-    border: 1px solid #aeaeae; 
-    padding: 0px; /* Отступы */
-    border-radius: 5px; /* Закругление углов */
-    z-index: 1000; /* Уровень наложения */
-    margin-top: 0px; /* Отступ сверху */
-  }
-  .dark-theme .tooltip {
-    background-color: #155b91; /* Цвет фона для темной темы */
-    color: #ffffff; /* Цвет текста для темной темы */
-  }
+.custom3-button:hover {  
+    background-color: #94b700;  
+}  
+
+.item-content {    
+    display: flex;    
+    align-items: center;    
+    justify-content: flex-start;    
+    gap: 10px;    
+}    
+    
+.present-title {    
+    font-weight: bold;    
+    font-size: 18px;    
+    color: black;    
+}   
+
+.tooltip { 
+    position: absolute; 
+    background-color: #fff; 
+    border: 1px solid #aeaeae;  
+    padding: 0px; 
+    border-radius: 5px; 
+    z-index: 1000; 
+    margin-top: 0px; 
+} 
+
+.dark-theme .tooltip { 
+    background-color: #155b91; 
+    color: #ffffff; 
+}
   .sidebar {    
     height: 62vh;   
     width: 215px;   
@@ -138,18 +150,18 @@
 
   .back-button {
     color: white; 
-    position: absolute; /* Позиционирование кнопки */
-    top: 10px; /* Отступ сверху */
-    left: 20px; /* Отступ слева */
-    z-index: 1001; /* выше других элементов */
-    background-color: #53d0ec; /* Цвет фона */
-    border: none; /* Без границ */
-    padding: 8px 12px; /* Отступы */
-    cursor: pointer; /* Указатель при наведении */
-    border-radius: 5px; /* Скругленные углы */
+    position: absolute; 
+    top: 10px; 
+    left: 20px; 
+    z-index: 1001; 
+    background-color: #53d0ec; 
+    border: none; 
+    padding: 8px 12px; 
+    cursor: pointer;
+    border-radius: 5px;
   }
   .dark-theme .back-button {
-    color: black; /* Цвет текста в тёмной теме */
+    color: black;
   }
   .navbar {     
     display: flex;     
@@ -169,10 +181,10 @@
   .reset-button {     
     margin-left: 10px;   
   }   
-/* стиль предосмотров и скачиваний */
+
 .container {   
   padding: 2px;   
-  text-align: center; /* центрирование содержимого контейнера */  
+  text-align: center;
 }   
 
 .search-container {   
@@ -185,15 +197,15 @@ input {
   padding: 8px;  
   border-radius: 4px;  
   border: 1px solid #53d0ec;  
-  width: 100%; /* ширина на всю ширину контейнера */  
-  max-width: 400px; /* максимальная ширина для ввода */  
-  box-sizing: border-box; /* учитываем отступы и границы в ширине */  
+  width: 100%; 
+  max-width: 400px;  
+  box-sizing: border-box;
   color: black;   
 }  
 
 .large-title {  
   font-style: italic; /* курсив */ 
-  flex-grow: 1; /* текст займет оставшееся пространство */  
+  flex-grow: 1; 
   font-size: 20px;
 }  
 .dark-theme .large-title { 

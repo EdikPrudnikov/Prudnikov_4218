@@ -33,18 +33,18 @@ export default {
      
 <style>     
   .article-link { 
-    color: #007BFF; /* Цвет ссылки */ 
-    text-decoration: underline; /* Подчеркивание ссылки */ 
+    color: #007BFF;
+    text-decoration: underline;
   } 
   .article-link:hover { 
-    color: #0056b3; /* Цвет ссылки при наведении */ 
+    color: #0056b3;
   } 
   .dark-theme .article-link { 
-    color: #FFD700;/* Синий цвет ссылки */ 
-    text-decoration: underline; /* Подчеркивание ссылки */
+    color: #FFD700; 
+    text-decoration: underline;
   }
   .dark-theme.article-link:hover { 
-    color: #FFD700; /* Цвет ссылки при наведении */ 
+    color: #FFD700;
   } 
 </style>  
 
