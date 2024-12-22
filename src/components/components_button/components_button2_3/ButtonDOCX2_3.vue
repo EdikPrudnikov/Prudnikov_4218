@@ -1,25 +1,29 @@
-<template> 
-  <div class="container"> 
-    <h1>Страница "Сценарии"</h1> 
-    <div class="search-container">  
-      <input type="text" v-model="searchQuery" placeholder="Поиск..." />  
-      <ul class="no-bullet">  
-        <li v-for="item in filteredItems" :key="item.id" class="item">  
-          <div class="item-content">  
-            <span class="item-title large-title">{{ item.name }}</span>  
-            <div class="button-group">  
-              <button @click="toggleTooltip(item)" class="custom3-button preview-button">Предосмотр</button> 
-              <button @click="openLink(item, 'скачать')" class="custom3-button">Скачать</button>   
-              <div v-if="tooltipVisible && tooltipItem === item" class="tooltip" @mouseenter="keepTooltipVisible" @mouseleave="hideTooltip">  
-                <p>Предосмотр для {{ item.name }}</p>  
-                <img v-for="(image, index) in getImages(item)" :key="index" :src="image" alt="Предосмотр изображения" /> 
-              </div> 
-            </div> 
-          </div> 
-        </li> 
-      </ul> 
-    </div> 
+<template>   
+  <div> 
   </div> 
+  <div class="container">   
+    <h1>Страница "Сценарии 2-3 года"</h1>   
+    <div class="search-container">   
+      <input type="text" v-model="searchQuery" placeholder="Поиск..." />   
+      <ul class="no-bullet">   
+        <li v-for="item in filteredItems" :key="item.id" class="item">   
+          <div class="item-content">   
+            <span class="item-title large-title">{{ item.name }}</span>   
+            <div class="button-group">   
+              <button @click="toggleTooltip(item)" class="custom3-button preview-button">Предосмотр</button>  
+              <button @click="openLink(item, 'скачать')" class="custom3-button">Скачать</button>    
+              <div v-if="tooltipVisible && tooltipItem === item" class="tooltip" @mouseenter="keepTooltipVisible" @mouseleave="hideTooltip">   
+                <p>Предосмотр для {{ item.name }}</p>   
+                <div v-for="(image, index) in getImages(item)" :key="index"> 
+                  <img :src="image" alt="Предосмотр изображения" class="responsive-image" />  
+                </div>
+              </div>   
+            </div>   
+          </div>   
+        </li>   
+      </ul>   
+    </div>   
+  </div>   
 </template> 
  
 <script> 

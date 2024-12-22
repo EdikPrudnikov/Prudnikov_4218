@@ -61,3 +61,10 @@ body.dark-theme {
 .dark-theme .article-text1 {  
   color: #ffffff;  
 }
+
+.responsive-image {
+  max-width: 500px;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+}
