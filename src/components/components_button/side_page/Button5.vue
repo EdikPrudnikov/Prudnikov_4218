@@ -15,7 +15,7 @@ export default {
     goToButtonGame6_7() { 
       this.$router.push('/ButtonGame6_7');
     }, 
-    goToButtonPPT6_7() { 
+    goToButtonPPT6_7() {
       this.$router.push('/ButtonPPT6_7');
     }, 
     goToButtonDOCX6_7() { 
