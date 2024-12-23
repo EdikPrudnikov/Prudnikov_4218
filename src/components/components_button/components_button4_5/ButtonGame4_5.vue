@@ -81,12 +81,11 @@ export default {
     removeClickListener() {    
       document.removeEventListener('click', this.handleClickOutside);    
     },    
-    handleClickOutside(event) {    
-      const tooltipElement = this.$el.querySelector('.tooltip');    
-      if (tooltipElement && !tooltipElement.contains(event.target) && !this.$el.contains(event.target)) {    
-        this.hideTooltip();    
-        this.removeClickListener();    
-      }    
+    handleClickOutside(event) {
+      const tooltipElement = this.$refs.tooltip;
+      if (tooltipElement && !tooltipElement.contains(event.target) && !this.$el.contains(event.target)) {
+        this.hideTooltip();
+      }  
     },    
     getImages(item) { 
       const images = {
