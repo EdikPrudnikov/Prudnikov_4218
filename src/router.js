@@ -1,7 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router';
-
-import Prudnikov from './components/Prudnikov.vue';
-
 import Home from './views/Home.vue';
 import Button1 from './components/Button1.vue';
 import Button2 from './components/Button2.vue';
@@ -39,9 +36,6 @@ import MultStudio from './components/components_button/sidebar/MultStudio.vue';
 
 const routes = [
   { path: '/', component: Home },
-
-  { path: '/Prudnikov_4218', component: Prudnikov },
-
   { path: '/Button1', component: Button1 },
   { path: '/Button2', component: Button2 },
   { path: '/Button3', component: Button3 },
